@@ -1,0 +1,13 @@
+[package]
+name = "one-time-pad"
+version = "0.1.0"
+authors = ["Ben Edridge <BenEdridge@users.noreply.github.com>"]
+edition = "2018"
+readme = "README.md"
+homepage = "https://github.com/BenEdridge/one-time-pad-rs"
+repository = "https://github.com/BenEdridge/one-time-pad-rs"
+keywords = ["one", "time", "pad", "otp"]
+categories = ["cryptography"]
+
+[dependencies]
+getrandom = "0.2.2"
